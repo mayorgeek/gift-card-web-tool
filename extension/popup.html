@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Card Rates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">💳</div>
+      <div class="header-text">
+        <h1 class="business-name">GiftCard Exchange Pro</h1>
+        <p class="tagline">Fast & Reliable Trading</p>
+      </div>
+    </header>
+
+    <div class="search-container">
+      <input type="search" id="searchInput" class="search-input" placeholder="Search gift cards...">
+    </div>
+
+    <div id="ratesList" class="rates-list"></div>
+
+    <div class="actions">
+      <button class="btn btn-primary" id="tradeBtn">
+        <span class="btn-icon">📱</span>
+        Trade Now
+      </button>
+      <button class="btn btn-secondary" id="chatBtn">
+        <span class="btn-icon">💬</span>
+        Chat With Us
+      </button>
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
